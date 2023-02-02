@@ -30,6 +30,7 @@ export default function Form({ doubleContactName, onSubmit }) {
   };
   const reset = () => {
     setName('');
+    setNumber('');
   };
   return (
     <form onSubmit={handleSubmit} className={css.form}>
