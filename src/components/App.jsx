@@ -28,10 +28,6 @@ export default function App() {
       case 'filter':
         setFilter(value);
         break;
-      case 'contacts':
-        setContacts(value);
-        break;
-
       default:
         return;
     }
