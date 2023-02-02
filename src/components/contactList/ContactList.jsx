@@ -1,6 +1,5 @@
 import css from './ContactList.module.css';
 export const ContactList = ({ contacts, filterContacts, deleteContact }) => {
-  //   e
   return (
     <>
       {contacts.length > 0 ? (
