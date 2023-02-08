@@ -50,7 +50,7 @@ export default function App() {
     const leaveContacts = contacts.filter(contact => {
       return contact.name !== event.target.parentNode.id;
     });
-    return setContacts([...leaveContacts]);
+    return setContacts(prevState => [...prevState, ...leaveContacts]);
   };
 
   return (
